@@ -8,4 +8,5 @@ Se no arquivo de texto tiver letras ou símbolos, ele ignora e só captura os n�
 Exemplo: numeros.txt (saldWDWBW2R6R6R364636344354FGWIUWICVWVCW85R3RR6222528DWEVCVEVSJCF65R2R272)
 
 Saída do programa: 
-<img src="C:\Users\55799\Pictures\Screenshots\Captura de tela 2023-10-25 011736.png"> 
+<img src="Captura de tela 2023-10-25 011736.png"
+width=500 height=250>
