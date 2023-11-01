@@ -1,13 +1,15 @@
 # LeituraDeArquivo
 
-### Este algoritmo tem como funcionalidade capturar valores numéricos inteiros em um arquivo de texto e calcular a média dos números.
-### Ainda acho possível adicionar uma melhor funcionalidade a esse algoritmo, pois ele tem um problema:
-### Não é possível ler qualquer valor que tenha 2 ou mais caracteres como 10 por exemplo. Ele ler um caracter de cada vez, nesse caso, adicionando o 10, ele leria 1 e 0.
-
-### Se no arquivo de texto tiver letras ou símbolos, ele ignora e só captura os números. Fiz essa condição utilizando Regex.
-Exemplo: numeros.txt (saldWDWBW2R6R6R364636344354FGWIUWICVWVCW85R3RR6222528DWEVCVEVSJCF65R2R272)
-
-# Saída do programa: 
-### O valor total dos números no arquivo é 132
-### A média é 4.26
-
+<p>Fiz projeto através de um desafio proposto. O desafio é criar um programa que ler números de um arquivo de texto e retornar
+como output a soma dos números e a média deles.</p>
+<p>Criei um algoritmo que realizasse essa tarefa e mais outras tarefas que vou explicar uma a uma.</p>
+<h2>Primeira Tarefa</h2>
+<p>A primeira tarefa que implementei foi a do desafio proposto. O algoritmo irá ler um arquivo de texto (nums.txt) que contenha apenas
+números, vai somá-los e calcular a média e apresentará os dois cálculos.</p>
+<h2>Segunda tarefa</h2>
+<p>A segunda tarefa implementei um leitor de números em arquivo de texto (numeros.txt) que contém qualquer tipo de caracter, o algoritmo retorna
+a quantidade de números existentes no arquivo e também detalha quanto de cada caracter numérico existe.</p>
+<h2>Terceira tarefa</h2>
+<p>A terceira tarefa eu comecei a brincar com binários. O algoritmo lê o mesmo arquivo da segunda tarefa e transforma cada caracter numérico em um número binário e o apresenta.</p>
+<h2>Quarta tarefa</h2>
+<p>A quarta tarefa é justamente a conversão do binário de cada caracter numérico para decimal.</p>
