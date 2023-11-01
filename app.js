@@ -98,7 +98,8 @@ const call = {
                 if(num.length == 2) return binaryFormated.push('00' + num);
                 if(num.length == 1) return binaryFormated.push('000' + num);
             });
-            res.send(binaryFormated.join("\n"));
+            res.set({ 'Content-Type': 'text/plain' });
+            res.send(binaryFormated.join(" "));
         });
     },
     //Função que decodifica os números do arquivo de texto que foram transformados em binários... 
@@ -122,7 +123,8 @@ const call = {
             bin.forEach(bin => {
                 dcp.push(bin.toString());
             });
-            res.send(dcp.join("\n"));
+            res.set({ 'Content-Type': 'text/plain' });
+            res.send(dcp.join(" "));
         })
     }
 
